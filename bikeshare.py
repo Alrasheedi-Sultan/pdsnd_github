@@ -70,7 +70,7 @@ def load_data(city, month, day):
 
     df = pd.read_csv("{}.csv".format(city.replace(" ","_")))
 
-    # Convert the Start and End Time columns to datetime
+    
     df['Start Time'] = pd.to_datetime(df['Start Time'])
     df['End Time'] = pd.to_datetime(df['End Time'])
 
