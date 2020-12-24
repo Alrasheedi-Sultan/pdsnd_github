@@ -3,11 +3,11 @@ import pandas as pd
 import numpy as np
 
 
-
+# name of the data files is listed below
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
-
+# use this to filter the data
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
